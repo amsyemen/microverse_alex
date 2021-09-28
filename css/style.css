@@ -7,6 +7,12 @@ body {
   line-height: 1.5;
 }
 
+@media (min-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
 #navbar {
   position: fixed;
   min-width: 290px;
